@@ -1,6 +1,6 @@
 #include <string>
 
-#ifdef PLAYER_H
+#ifndef PLAYER_H
 #define PLAYER_H
 
 class Player {
@@ -15,7 +15,7 @@ class Player {
         Player();
         Player(std::string name, int health, int attackPower);
 
-        ~wizard();
+        ~Player();
         // destructor
 
 

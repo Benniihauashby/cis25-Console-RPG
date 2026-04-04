@@ -2,8 +2,8 @@
 #include "Player.h"
 
 int main() {
-    Player hero();
-    Player wizard("Mork", 120, 15);
+    Player hero;
+    Player wizard("Dingus", 100, 25);
 
 
     hero.displayStatus();
